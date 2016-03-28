@@ -1,0 +1,33 @@
+{
+  "name": "OKAPIKit",
+  "version": "0.1.0",
+  "summary": "A short description of OKAPIKit.",
+  "description": "",
+  "homepage": "https://github.com/bartekchlebek/OKAPIKit",
+  "license": "MIT",
+  "authors": {
+    "Bartek Chlebek": "bartek.chlebek@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/bartekchlebek/OKAPIKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "OKAPI": [
+      "Pod/CommonCrypto/module.map"
+    ]
+  },
+  "dependencies": {
+    "Rosetta": [
+      "0.0.5"
+    ]
+  },
+  "xcconfig": {
+    "SWIFT_INCLUDE_PATHS": "$(SRCROOT)/Pods/OKAPIKit/CommonCrypto"
+  }
+}

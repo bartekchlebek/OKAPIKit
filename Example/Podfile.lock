@@ -1,0 +1,23 @@
+PODS:
+  - Nimble (3.2.0)
+  - OKAPIKit (0.1.0):
+    - Rosetta (= 0.0.5)
+  - Quick (0.9.1)
+  - Rosetta (0.0.5)
+
+DEPENDENCIES:
+  - Nimble (~> 3.0)
+  - OKAPIKit (from `../`)
+  - Quick (~> 0.8)
+
+EXTERNAL SOURCES:
+  OKAPIKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  OKAPIKit: a9bdabb233dde68b06232d5bbdd1b86edf95a2b9
+  Quick: a5221fc21788b6aeda934805e68b061839bc3165
+  Rosetta: e61bef4e76d6c7848015b89cbb21992e979c3d5e
+
+COCOAPODS: 0.39.0
